@@ -1,0 +1,40 @@
+
+
+@font-face {
+  font-family: '';
+  src: url('');
+  font-weight: normal;
+}
+
+
+body {
+ font-family: '', sans-serif !important;  
+}
+
+b {
+ font-family: '', sans-serif !important; 
+}
+
+u {
+  	font-family: '';
+  	text-decoration: none !important;
+  	font-size: 1.4em !important;
+}
+
+button {
+font-family: '', sans-serif !important;
+font-style: uppercase !important;
+}
+
+div[data-htype='headline'] > div, div[data-htype='headline'] > div > font, div[data-htype='headline'] > h1,  div[data-htype='headline'] > h1 > font, div[data-htype='headline'] > h2 > font, div[data-htype='headline'] > h3 > font {
+ 
+  	font-family: '' !important; 
+}
+
+{
+	background-image: linear-gradient(to right, #e7e8e4, #e7e8e4);
+  	background-size: 200% 40%;
+  	background-repeat: repeat-x;
+   	background-position: -100% 100%;
+  	font-style: normal !important;
+}
